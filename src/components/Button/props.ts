@@ -3,7 +3,7 @@ interface ButtonProps {
   label?: string,
   hamburguer?: boolean,
   cancel?: boolean,
-};
+}
 
 const defaultButtonProps:ButtonProps = {
   label: '',

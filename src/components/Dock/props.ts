@@ -1,9 +1,9 @@
-import { ContactItem } from "../../models/data";
+import { ContactItem } from '../../models/data';
 
 interface DockProps {
   className?: string;
-  items: ContactItem[]
-};
+  items: ContactItem[];
+}
 
 const defaultDockProps:DockProps = {
   className: '',

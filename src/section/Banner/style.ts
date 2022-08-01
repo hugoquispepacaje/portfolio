@@ -39,7 +39,7 @@ const getNameStyle = (isStart:boolean) => `
   sm:text-5xl
   xl:text-6xl
   font-semibold
-  ${ isStart ? 'translate-x-0': '-translate-x-full'}
+  ${isStart ? 'translate-x-0' : '-translate-x-full'}
   transition-all
   duration-1000
 `;
@@ -47,14 +47,14 @@ const getNameStyle = (isStart:boolean) => `
 const getDegreeStyle = (isStart:boolean) => `
   text-xl
   xl:text-3xl
-  ${ isStart ? 'translate-x-0': '-translate-x-full'}
+  ${isStart ? 'translate-x-0' : '-translate-x-full'}
   transition-all
   duration-1000
 `;
 const getSpecialtyStyle = (isStart:boolean) => `
   text-lg
   xl:text-2xl
-  ${ isStart ? 'translate-x-0': '-translate-x-full'}
+  ${isStart ? 'translate-x-0' : '-translate-x-full'}
   transition-all
   duration-1000
 `;
@@ -70,9 +70,18 @@ const getImageStyle = (isStart:boolean) => `
   mt-auto
   h-full
   lg:h-5/6
-  ${ isStart ? 'translate-y-0': 'translate-y-full'}
+  ${isStart ? 'translate-y-0' : 'translate-y-full'}
   transition-all
   duration-1000
 `;
 
-export { bannerStyle, bannerContainerStyle, titleContainerStyle, getNameStyle, getDegreeStyle, getSpecialtyStyle, imageContainerStyle, getImageStyle };
+export {
+  bannerStyle,
+  bannerContainerStyle,
+  titleContainerStyle,
+  getNameStyle,
+  getDegreeStyle,
+  getSpecialtyStyle,
+  imageContainerStyle,
+  getImageStyle,
+};

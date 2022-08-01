@@ -6,26 +6,26 @@ const sidebarStyle = `
   z-50
 `;
 
-const getSpaceStyle = ( isVisible:boolean ) => `
+const getSpaceStyle = (isVisible:boolean) => `
   absolute
   h-full
   w-full
   left-0
-  ${ isVisible ? 'bg-prussian-blue' : 'bg-transparent'}
+  ${isVisible ? 'bg-prussian-blue' : 'bg-transparent'}
   opacity-50
   transition-colors
   duration-500
   cursor-pointer
 `;
 
-const getMenuContainerStyle = ( isVisible:boolean ) => `
+const getMenuContainerStyle = (isVisible:boolean) => `
   absolute
   bg-prussian-blue
   h-full
   lg:w-3/12
   w-1/2
   right-0
-  ${ isVisible ? 'translate-x-0' : 'translate-x-full'}
+  ${isVisible ? 'translate-x-0' : 'translate-x-full'}
   transition-all
   duration-500
 `;
@@ -54,4 +54,11 @@ const itemMenuStyle = `
   duration-500
 `;
 
-export { sidebarStyle, getSpaceStyle, getMenuContainerStyle, topMenuStyle, menuStyle, itemMenuStyle };
+export {
+  sidebarStyle,
+  getSpaceStyle,
+  getMenuContainerStyle,
+  topMenuStyle,
+  menuStyle,
+  itemMenuStyle,
+};

@@ -1,25 +1,25 @@
-import { useState, useContext, useEffect } from 'react'
+import { useState, useContext, useEffect } from 'react';
 import HeaderProps, { defaultHeaderProps } from './props';
 import Navbar from '../../components/Navbar';
-import { headerStyle } from './style';
+import headerStyle from './style';
 import languages from '../../data/language';
 import header from '../../data/header';
 import LanguageContext from '../../context/Language/LanguageContext';
 import Language from '../../models/language';
 
-const Hearder = ( props:HeaderProps) => {
-  props = { ...defaultHeaderProps, ...props };
-  const [ language, setLanguage ] = useState({});
+const Hearder = (props:HeaderProps) => {
+  const { onButtonNavbarPress } = { ...defaultHeaderProps, ...props };
+  const [language, setLanguage] = useState({});
   const { languageLabel, setLanguage: setLanguageLabel } = useContext(LanguageContext);
 
-  useEffect(()=>{
-    const language = languages.find(language=>language.label === languageLabel);
-    setLanguage(language ? language : {});
+  useEffect(() => {
+    const initialLanguage = languages.find((lang) => lang.label === languageLabel);
+    setLanguage(initialLanguage || {});
   }, []);
 
-  const onChangeLanguage = (value:Language)  => {
+  const onChangeLanguage = (value:Language) => {
     setLanguage(value);
-    setLanguageLabel(value.label ? value.label : '');
+    setLanguageLabel(value.label || '');
   };
 
   return (
@@ -27,13 +27,14 @@ const Hearder = ( props:HeaderProps) => {
       <Navbar
         value={language}
         setValue={onChangeLanguage}
-        options= {languages}
-        href= {header.href}
-        logoSrc= {header.logoSrc}
-        onButtonPress={props.onButtonNavbarPress}
+        options={languages}
+        href={header.href}
+        logoSrc={header.logoSrc}
+        onButtonPress={onButtonNavbarPress}
+        logoAlt={header.logoAlt}
       />
     </header>
-  )
-}
+  );
+};
 
 export default Hearder;

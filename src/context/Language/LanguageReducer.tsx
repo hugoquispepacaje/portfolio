@@ -1,4 +1,4 @@
-import { SET_LANGUAGE } from '../types';
+import SET_LANGUAGE from '../types';
 import { LanguageAction, LanguageState } from './props';
 
 const saveInStorage = (languageLabel:string) => {
@@ -12,7 +12,7 @@ const LanguageReducer = (state: LanguageState, action:LanguageAction) => {
       saveInStorage(payload.languageLabel);
       return {
         ...state,
-        languageLabel: payload.languageLabel
+        languageLabel: payload.languageLabel,
       };
     default:
       return state;

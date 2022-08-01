@@ -1,4 +1,4 @@
-import Language from "../../models/language";
+import Language from '../../models/language';
 
 interface NavbarProps {
   value?: Language;
@@ -6,8 +6,9 @@ interface NavbarProps {
   options: Language[];
   href: string;
   logoSrc: string;
+  logoAlt: string;
   onButtonPress?: () => void;
-};
+}
 
 const defaultNavbarProps:NavbarProps = {
   value: {
@@ -19,6 +20,7 @@ const defaultNavbarProps:NavbarProps = {
   options: [],
   href: '#',
   logoSrc: '',
+  logoAlt: '',
   onButtonPress: () => null,
 };
 

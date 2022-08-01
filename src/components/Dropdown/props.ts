@@ -1,10 +1,10 @@
-import Language from "../../models/language";
+import Language from '../../models/language';
 
 interface DropdownProps {
   value?: Language,
   setValue: (value:Language) => void;
   options: Language[];
-};
+}
 
 const defaultDropdownProps:DropdownProps = {
   value: {

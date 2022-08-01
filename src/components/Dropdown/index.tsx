@@ -12,44 +12,43 @@ import {
   buttonDropdownStyle,
 } from './style';
 
-const Dropdown = ( props:DropdownProps ) => {
-  props = { ...defaultDropdownProps, ...props };
-  const [ isActive, setIsActive ] = useState(false);
+const Dropdown = (props:DropdownProps) => {
+  const { value, setValue, options } = { ...defaultDropdownProps, ...props };
+  const [isActive, setIsActive] = useState(false);
 
-  const onChange = (value:Language) => {
-    if(value.id !== props.value?.id){
-      props.setValue(value);
+  const onChange = (newValue:Language) => {
+    if (newValue.id !== value?.id) {
+      setValue(newValue);
     }
     setIsActive(!isActive);
-  }
+  };
 
-  const renderOptions = props.options.map((option)=>{
-    return(
-      <button className={buttonDropdownStyle} key={option.id} onClick={()=>onChange(option)}>
-        <img className={flagStyle} src={option.imageSrc} />
-        {option.label}
-      </button>
-    )
-  });
+  const renderOptions = options.map((option) => (
+    <button type="button" className={buttonDropdownStyle} key={option.id} onClick={() => onChange(option)}>
+      <img className={flagStyle} src={option.imageSrc} alt={option.imageAlt} />
+      {option.label}
+    </button>
+  ));
 
   return (
     <div className="relative inline-block text-left">
       <div>
-        <button type="button" className={buttonStyle} onClick={()=>setIsActive(!isActive)}>
-        <img className={flagStyle} src={props.value?.imageSrc} />
-          { props.value?.label }
-          <span className={shevronStyle.concat(isActive ? shevronUpStyle : shervronDownStyle)}></span>
+        <button type="button" className={buttonStyle} onClick={() => setIsActive(!isActive)}>
+          <img className={flagStyle} src={value?.imageSrc} alt={value?.imageAlt} />
+          { value?.label }
+          <span className={shevronStyle.concat(isActive ? shevronUpStyle : shervronDownStyle)} />
         </button>
       </div>
-      { isActive && 
-        (<div className={dropdownStyle}>
-          <div className={dropdownContainerStyle}>
-            { renderOptions }
+      { isActive
+        && (
+          <div className={dropdownStyle}>
+            <div className={dropdownContainerStyle}>
+              { renderOptions }
+            </div>
           </div>
-        </div>)
-      }
+        )}
     </div>
-  )
-}
+  );
+};
 
 export default Dropdown;

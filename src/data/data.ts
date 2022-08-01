@@ -1,4 +1,4 @@
-import LanguageData from "../models/data";
+import LanguageData from '../models/data';
 
 const languageData:LanguageData[] = [
   {
@@ -36,28 +36,35 @@ const languageData:LanguageData[] = [
         degree: 'Ingeniero Civil en Computación e Informática',
         specialty: 'Desarrollador FrontEnd | UI',
         imageSrc: 'https://hugoquispe.cl/assets/img/hugo.png',
+        imageAlt: 'Hugo\'s Photo',
       },
       contact: [
         {
           id: 1,
           icon: 'pi pi-whatsapp',
           url: 'https://api.whatsapp.com/send?phone=+56983499427&text=Hola!!!%0AEstaba viendo tu portafolio y me gustaria trabajar contigo.',
-          isNewTab: true
+          isNewTab: true,
         },
         {
           id: 2,
           icon: 'pi pi-envelope',
           url: 'mailto:hugo.quispe96@outlook.el',
-          isNewTab: false
+          isNewTab: false,
         },
         {
           id: 3,
           icon: 'pi pi-linkedin',
           url: 'https://www.linkedin.com/in/hugo-quispe-pacaje-71b1b6119/',
-          isNewTab: true
+          isNewTab: true,
+        },
+        {
+          id: 4,
+          icon: 'pi pi-github',
+          url: 'https://github.com/hugoquispepacaje/portfolio',
+          isNewTab: true,
         },
       ],
-    }
+    },
   },
   {
     languageLabel: 'EN',
@@ -94,28 +101,35 @@ const languageData:LanguageData[] = [
         degree: 'Civil Engineer in Computing and Informatics',
         specialty: 'FrontEnd | UI Developer',
         imageSrc: 'https://hugoquispe.cl/assets/img/hugo.png',
+        imageAlt: 'Hugo\'s Photo',
       },
       contact: [
         {
           id: 1,
           icon: 'pi pi-whatsapp',
           url: 'https://api.whatsapp.com/send?phone=+56983499427&text=Hello!!!%0AI was looking at your portfolio and would like to work with you.',
-          isNewTab: true
+          isNewTab: true,
         },
         {
           id: 2,
           icon: 'pi pi-envelope',
           url: 'mailto:hugo.quispe96@outlook.el',
-          isNewTab: false
+          isNewTab: false,
         },
         {
           id: 3,
           icon: 'pi pi-linkedin',
           url: 'https://www.linkedin.com/in/hugo-quispe-pacaje-71b1b6119/',
-          isNewTab: true
+          isNewTab: true,
+        },
+        {
+          id: 4,
+          icon: 'pi pi-github',
+          url: 'https://github.com/hugoquispepacaje/portfolio',
+          isNewTab: true,
         },
       ],
-    }
+    },
   },
   {
     languageLabel: 'FR',
@@ -152,28 +166,35 @@ const languageData:LanguageData[] = [
         degree: 'Ingénieur civil en informatique et informatique',
         specialty: 'FrontEnd | UI Developer',
         imageSrc: 'https://hugoquispe.cl/assets/img/hugo.png',
+        imageAlt: 'Hugo\'s Photo',
       },
       contact: [
         {
           id: 1,
           icon: 'pi pi-whatsapp',
-          url: `https://api.whatsapp.com/send?phone=+56983499427&text=Bonjour!!!%0Aje regardais votre portfolio et j'aimerais travailler avec vous.`,
-          isNewTab: true
+          url: 'https://api.whatsapp.com/send?phone=+56983499427&text=Bonjour!!!%0Aje regardais votre portfolio et j\'aimerais travailler avec vous.',
+          isNewTab: true,
         },
         {
           id: 2,
           icon: 'pi pi-envelope',
           url: 'mailto:hugo.quispe96@outlook.el',
-          isNewTab: false
+          isNewTab: false,
         },
         {
           id: 3,
           icon: 'pi pi-linkedin',
           url: 'https://www.linkedin.com/in/hugo-quispe-pacaje-71b1b6119/',
-          isNewTab: true
+          isNewTab: true,
+        },
+        {
+          id: 4,
+          icon: 'pi pi-github',
+          url: 'https://github.com/hugoquispepacaje/portfolio',
+          isNewTab: true,
         },
       ],
-    }
+    },
   },
 ];
 

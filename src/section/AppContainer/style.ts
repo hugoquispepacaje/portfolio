@@ -4,4 +4,4 @@ const AppContainerStyle = `
   text-sky-50
 `;
 
-export { AppContainerStyle };
+export default AppContainerStyle;

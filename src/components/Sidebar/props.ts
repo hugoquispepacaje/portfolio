@@ -1,10 +1,10 @@
-import { MenuItem } from "../../models/data";
+import { MenuItem } from '../../models/data';
 
 interface SidebarProps {
   visible: boolean;
   menuItems?: MenuItem[];
   onHide?: () => void;
-};
+}
 
 const defaultSidebarProps:SidebarProps = {
   visible: false,

@@ -1,9 +1,9 @@
-import { Banner } from "../../models/data";
+import { Banner } from '../../models/data';
 
 interface BannerProps {
   data: Banner,
   id: string,
-};
+}
 
 const defaultBannerProps:BannerProps = {
   data: {
@@ -11,8 +11,9 @@ const defaultBannerProps:BannerProps = {
     degree: '',
     specialty: '',
     imageSrc: '',
+    imageAlt: '',
   },
-  id: ''
+  id: '',
 };
 
 export default BannerProps;

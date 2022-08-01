@@ -1,6 +1,6 @@
 interface HeaderProps {
   onButtonNavbarPress?: () => void;
-};
+}
 
 const defaultHeaderProps:HeaderProps = {
   onButtonNavbarPress: () => null,

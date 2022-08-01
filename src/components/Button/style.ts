@@ -50,4 +50,10 @@ const spanCancelStyle = `
   duration-500
 `;
 
-export { buttonStyle, buttonHamburgerStyle, spanHamburgerStyle, buttonCancelStyle, spanCancelStyle };
+export {
+  buttonStyle,
+  buttonHamburgerStyle,
+  spanHamburgerStyle,
+  buttonCancelStyle,
+  spanCancelStyle,
+};

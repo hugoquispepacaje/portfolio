@@ -5,4 +5,4 @@ const headerStyle = `
   bg-prussian-blue
 `;
 
-export { headerStyle };
+export default headerStyle;
