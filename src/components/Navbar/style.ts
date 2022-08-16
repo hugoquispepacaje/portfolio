@@ -1,5 +1,4 @@
 const navbarStyle = `
-  w-100
   bg-prussian-blue
   py-2
   container
@@ -10,16 +9,8 @@ const navbarStyle = `
 `;
 const leftStyle = `
   flex
-  w-100
   items-center
   gap-4
 `;
-const logoStyle = `
-  w-14
-  h-14
-  hover:scale-110
-  transition-transform
-  duration-500
-`;
 
-export { navbarStyle, leftStyle, logoStyle };
+export { navbarStyle, leftStyle };

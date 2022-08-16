@@ -19,10 +19,30 @@ interface ContactItem {
   isNewTab: boolean;
 }
 
+interface Logo {
+  id: number;
+  logoSrc: string;
+  logoAlt: string;
+}
+
+interface ExperienceItem {
+  id: number;
+  title: string;
+  project: string;
+  technologiesTitle: string;
+  technologies: Logo[];
+  clientTitle: string;
+  client: Logo;
+  employerTitle: string;
+  employer: Logo;
+}
+
 interface Data {
   menu: MenuItem[];
   banner: Banner;
   contact: ContactItem[];
+  experienceTitle: string;
+  experiences: ExperienceItem[];
 }
 
 interface LanguageData {
@@ -35,6 +55,8 @@ export {
   type MenuItem,
   type Banner,
   type ContactItem,
+  type Logo,
+  type ExperienceItem,
 };
 
 export default LanguageData;

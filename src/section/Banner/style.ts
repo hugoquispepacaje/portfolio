@@ -1,14 +1,17 @@
 const bannerStyle = `
   w-full
-  h-[30rem]
-  xl:h-[42rem]
-  2xl:h-[50rem]
+  h-[calc(100vh_-_8rem)]
+  lg:h-[calc(100vh_-_4rem)]
+  min-h-[30rem]
+  xl:min-h-[42rem]
+  2xl:min-h-[50rem]
   bg-[url('https://hugoquispe.cl/assets/banner.1de76c1b.jpg')]
   bg-no-repeat
   bg-center
   bg-fixed
   bg-cover
   overflow-hidden
+  text-custom-platinum
 `;
 
 const bannerContainerStyle = `
@@ -35,9 +38,11 @@ const titleContainerStyle = `
 `;
 
 const getNameStyle = (isStart:boolean) => `
-  text-4xl
-  sm:text-5xl
-  xl:text-6xl
+  text-custom-platinum
+  italic
+  text-5xl
+  sm:text-6xl
+  xl:text-7xl
   font-semibold
   ${isStart ? 'translate-x-0' : '-translate-x-full'}
   transition-all

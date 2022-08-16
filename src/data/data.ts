@@ -64,6 +64,34 @@ const languageData:LanguageData[] = [
           isNewTab: true,
         },
       ],
+      experienceTitle: 'Experiencia',
+      experiences: [
+        {
+          id: 1,
+          title: 'Desarrollador UI',
+          project: 'BanConexión',
+          technologiesTitle: 'Tecnologias',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Cliente',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Empleador',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
+        },
+      ],
     },
   },
   {
@@ -129,6 +157,184 @@ const languageData:LanguageData[] = [
           isNewTab: true,
         },
       ],
+      experienceTitle: 'Experience',
+      experiences: [
+        {
+          id: 1,
+          title: 'UI Developer',
+          project: 'Project: BanConexión',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
+        },
+        {
+          id: 2,
+          title: 'Java Developer',
+          project: 'Project: Migration Liferay CGR',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'CGR Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: 'ValpoSystems Logo',
+          },
+        },
+        {
+          id: 3,
+          title: 'Full Stack Developer',
+          project: 'Project: Portal Prestadores',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'ISL Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: 'ValpoSystems Logo',
+          },
+        },
+        {
+          id: 4,
+          title: 'Thesis Student',
+          project: 'Implementation of dashboards',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'University',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Universidad de Tarapaca Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: 'Codelco Logo',
+          },
+        },
+        {
+          id: 5,
+          title: 'Full Stack Developer',
+          project: 'Project: VendeComida',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
+        },
+        {
+          id: 6,
+          title: 'Wordpress Developer',
+          project: 'Projects: Ruta Digital',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Clients',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
+        },
+        {
+          id: 7,
+          title: 'PHP Developer',
+          project: 'Project: E-SEIA',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Employer',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
+        },
+      ],
     },
   },
   {
@@ -192,6 +398,34 @@ const languageData:LanguageData[] = [
           icon: 'pi pi-github',
           url: 'https://github.com/hugoquispepacaje/portfolio',
           isNewTab: true,
+        },
+      ],
+      experienceTitle: 'Vivre',
+      experiences: [
+        {
+          id: 1,
+          title: 'Developer',
+          project: 'BanConexión',
+          technologiesTitle: 'Technologies',
+          technologies: [
+            {
+              id: 1,
+              logoSrc: 'https://image.pngaaa.com/11/2508011-middle.png',
+              logoAlt: 'React Logo',
+            },
+          ],
+          clientTitle: 'Client',
+          client: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcrJyO-Awi_Z3dgHm0jHJYMmCX4pEykaMIfqLx6rJRA&s',
+            logoAlt: 'Banco de Chile Logo',
+          },
+          employerTitle: 'Employeur',
+          employer: {
+            id: 1,
+            logoSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ajuar8CEBVaPQ5O5n_YtQPPILknZrZq_TTTQXU0Vg&s',
+            logoAlt: '3it Logo',
+          },
         },
       ],
     },

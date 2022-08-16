@@ -1,7 +1,8 @@
 import Button from '../Button';
 import Dropdown from '../Dropdown';
+import Logo from '../Logo';
 import NavbarProps, { defaultNavbarProps } from './props';
-import { navbarStyle, logoStyle, leftStyle } from './style';
+import { navbarStyle, leftStyle } from './style';
 
 const Navbar = (props:NavbarProps) => {
   const {
@@ -16,7 +17,9 @@ const Navbar = (props:NavbarProps) => {
   return (
     <nav className={navbarStyle}>
       <div>
-        <a href={href}><img className={logoStyle} src={logoSrc} alt={logoAlt} /></a>
+        <a href={href}>
+          <Logo logoSrc={logoSrc} logoAlt={logoAlt} />
+        </a>
       </div>
       <div className={leftStyle}>
         <Dropdown value={value} setValue={setValue} options={options} />

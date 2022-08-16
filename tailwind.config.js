@@ -18,6 +18,8 @@ module.exports = {
       'pacific-blue': '#38AECC',
       'blue-sapphire': '#046E8F',
       'midnight-blue': '#0F084B',
+      'satin-sheen-gold': '#CCA43B',
+      'custom-platinum': '#E5E5E5',
     },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],

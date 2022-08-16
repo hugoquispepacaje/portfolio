@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import IdScroll from '../../components/IdScroll';
 import BannerProps, { defaultBannerProps } from './props';
 import {
   bannerStyle,
@@ -22,7 +23,8 @@ const Banner = (props:BannerProps) => {
   }, []);
 
   return (
-    <div id={id} className={bannerStyle}>
+    <section className={bannerStyle}>
+      <IdScroll id={id} />
       <div className={bannerContainerStyle}>
         <div className={titleContainerStyle}>
           <h1 className={getNameStyle(isStart)}>{data.name}</h1>
@@ -33,7 +35,7 @@ const Banner = (props:BannerProps) => {
           <img className={getImageStyle(isStart)} src={data.imageSrc} alt={data.imageAlt} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
