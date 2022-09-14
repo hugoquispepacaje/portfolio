@@ -15,7 +15,9 @@ const SectionCointainer = (props:SeccionContainerProps) => {
     id,
     title,
     children,
-    needViewMore,
+    needShowMore,
+    labelShowMore,
+    labelShowLess,
   } = props;
   const [isViewMoreActive, setIsViewMoreActive] = useState(false);
   const renderViewMore = (childrenVM:any) => (
@@ -25,7 +27,7 @@ const SectionCointainer = (props:SeccionContainerProps) => {
       </div>
       <div className={containerButtonViewMore}>
         <Button
-          label={isViewMoreActive ? 'Ver Menos' : 'Ver Mas'}
+          label={isViewMoreActive ? labelShowLess : labelShowMore}
           onPress={() => setIsViewMoreActive(!isViewMoreActive)}
         />
       </div>
@@ -35,7 +37,7 @@ const SectionCointainer = (props:SeccionContainerProps) => {
     <section className={seccionContainerStyle}>
       <IdScroll id={id} />
       <h2 className={titleStyle}>{title}</h2>
-      { needViewMore ? renderViewMore(children) : children}
+      { needShowMore ? renderViewMore(children) : children}
     </section>
   );
 };

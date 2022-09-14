@@ -1,6 +1,6 @@
 import { screenBreak } from './constants';
 
-const needViewMore = (cantItems:number) => {
+const needShowMore = (cantItems:number) => {
   switch (window.innerWidth) {
     case screenBreak.sm:
       return cantItems > 1;
@@ -17,4 +17,4 @@ const needViewMore = (cantItems:number) => {
 
 const other = () => null;
 
-export { needViewMore, other };
+export { needShowMore, other };

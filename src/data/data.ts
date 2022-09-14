@@ -4,6 +4,8 @@ const languageData:LanguageData[] = [
   {
     languageLabel: 'ES',
     data: {
+      labelShowMore: 'Ver Más',
+      labelShowLess: 'Ver Menos',
       menu: [
         {
           id: 1,
@@ -97,6 +99,8 @@ const languageData:LanguageData[] = [
   {
     languageLabel: 'EN',
     data: {
+      labelShowMore: 'Show More',
+      labelShowLess: 'Show Less',
       menu: [
         {
           id: 1,
@@ -340,6 +344,8 @@ const languageData:LanguageData[] = [
   {
     languageLabel: 'FR',
     data: {
+      labelShowMore: 'Montre Plus',
+      labelShowLess: 'Montrer Moins',
       menu: [
         {
           id: 1,

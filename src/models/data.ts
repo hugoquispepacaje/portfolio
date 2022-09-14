@@ -38,6 +38,8 @@ interface ExperienceItem {
 }
 
 interface Data {
+  labelShowMore: string;
+  labelShowLess: string;
   menu: MenuItem[];
   banner: Banner;
   contact: ContactItem[];

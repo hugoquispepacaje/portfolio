@@ -2,15 +2,17 @@ interface SeccionContainerProps {
   id: string;
   title: string;
   children?: JSX.Element;
-  needViewMore?: boolean;
-  labelViewMore?: string;
+  needShowMore?: boolean;
+  labelShowMore?: string;
+  labelShowLess?: string;
 }
 
 const defaultSeccionContainerProps:SeccionContainerProps = {
   id: '',
   title: '',
-  needViewMore: false,
-  labelViewMore: '',
+  needShowMore: false,
+  labelShowMore: '',
+  labelShowLess: '',
 };
 
 export default SeccionContainerProps;

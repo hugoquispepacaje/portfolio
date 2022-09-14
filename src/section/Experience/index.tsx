@@ -1,12 +1,18 @@
 import Card from '../../components/Card';
 import CardExperienceBody from '../../components/CardExperienceBody';
 import SectionCointainer from '../../components/SectionCointainer';
-import { needViewMore } from '../../helpers/functions';
+import { needShowMore } from '../../helpers/functions';
 import ExperienceProps, { defaultExperienceProps } from './props';
 import { experienceContainerStyle } from './style';
 
 const Experience = (props:ExperienceProps) => {
-  const { id, experienceTitle, experiences } = { ...defaultExperienceProps, ...props };
+  const {
+    id,
+    experienceTitle,
+    experiences,
+    labelShowMore,
+    labelShowLess,
+  } = props;
   const renderExperiences = experiences.map((experience) => (
     <Card key={experience.id}>
       <CardExperienceBody
@@ -26,7 +32,9 @@ const Experience = (props:ExperienceProps) => {
     <SectionCointainer
       id={id}
       title={experienceTitle}
-      needViewMore={needViewMore(experiences.length)}
+      needShowMore={needShowMore(experiences.length)}
+      labelShowMore={labelShowMore}
+      labelShowLess={labelShowLess}
     >
       <div className={experienceContainerStyle}>
         {renderExperiences}
@@ -34,5 +42,7 @@ const Experience = (props:ExperienceProps) => {
     </SectionCointainer>
   );
 };
+
+Experience.defaultProps = defaultExperienceProps;
 
 export default Experience;
