@@ -1,4 +1,4 @@
-import SET_LANGUAGE from '../types';
+import { SET_LANGUAGE } from '../types';
 import { LanguageAction, LanguageState } from './props';
 
 const saveInStorage = (languageLabel:string) => {

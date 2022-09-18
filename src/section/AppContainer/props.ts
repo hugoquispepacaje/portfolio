@@ -16,6 +16,7 @@ const defaultAppData = {
   contact: [],
   experienceTitle: '',
   experiences: [],
+  technologiesTitle: '',
 };
 
 export default AppContainerProps;

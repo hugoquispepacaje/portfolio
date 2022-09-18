@@ -13,7 +13,6 @@ const Button = (props:ButtonProps) => {
     hamburguer,
     label,
     onPress,
-
   } = { ...defaultButtonProps, ...props };
   if (cancel) {
     return (

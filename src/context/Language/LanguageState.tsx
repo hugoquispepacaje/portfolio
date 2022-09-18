@@ -2,7 +2,7 @@
 import { useReducer, useMemo } from 'react';
 import LanguageContext, { initialState } from './LanguageContext';
 import LanguageReducer from './LanguageReducer';
-import SET_LANGUAGE from '../types';
+import { SET_LANGUAGE } from '../types';
 import { LanguageStateProps } from './props';
 
 const LanguageState = (props:LanguageStateProps) => {

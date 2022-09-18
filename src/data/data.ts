@@ -67,12 +67,15 @@ const languageData:LanguageData[] = [
         },
       ],
       experienceTitle: 'Experiencia',
+      technologiesTitle: 'Tecnologias',
+      jobFunctionTitle: 'Funciones del cargo',
       experiences: [
         {
           id: 1,
           title: 'Desarrollador UI',
           project: 'BanConexión',
-          technologiesTitle: 'Tecnologias',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,
@@ -162,12 +165,19 @@ const languageData:LanguageData[] = [
         },
       ],
       experienceTitle: 'Experience',
+      technologiesTitle: 'Technologies',
+      jobFunctionTitle: 'Funciones del cargo',
       experiences: [
         {
           id: 1,
           title: 'UI Developer',
           project: 'Project: BanConexión',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [
+            'Mobile app UI development and maintenance using React Native.',
+            'Debugging was done using Flipper, Android Emulator and Ios Emulator.',
+            'Development of unit tests using Jest and Testing Library.',
+          ],
           technologies: [
             {
               id: 1,
@@ -192,7 +202,12 @@ const languageData:LanguageData[] = [
           id: 2,
           title: 'Java Developer',
           project: 'Project: Migration Liferay CGR',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [
+            'Migration of portals from Liferay 6.2 to Liferay Dxp 7.3.',
+            'Theme migration from Velocity to FreeMarker.',
+            'Migration of Websites (HTML, CSS and JS) to Liferay themes.',
+          ],
           technologies: [
             {
               id: 1,
@@ -217,7 +232,13 @@ const languageData:LanguageData[] = [
           id: 3,
           title: 'Full Stack Developer',
           project: 'Project: Portal Prestadores',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [
+            'User interface development using Angular and PrimeNG.',
+            'HTTP requests to the backend using Angular.',
+            'Backend development using Spring, Hibernate, Jboss and Camel.',
+            'Development and maintenance of the database in Sql Server.',
+          ],
           technologies: [
             {
               id: 1,
@@ -242,7 +263,8 @@ const languageData:LanguageData[] = [
           id: 4,
           title: 'Thesis Student',
           project: 'Implementation of dashboards',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,
@@ -267,7 +289,8 @@ const languageData:LanguageData[] = [
           id: 5,
           title: 'Full Stack Developer',
           project: 'Project: VendeComida',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,
@@ -292,7 +315,8 @@ const languageData:LanguageData[] = [
           id: 6,
           title: 'Wordpress Developer',
           project: 'Projects: Ruta Digital',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,
@@ -317,7 +341,8 @@ const languageData:LanguageData[] = [
           id: 7,
           title: 'PHP Developer',
           project: 'Project: E-SEIA',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,
@@ -407,12 +432,15 @@ const languageData:LanguageData[] = [
         },
       ],
       experienceTitle: 'Vivre',
+      technologiesTitle: 'Les technologies',
+      jobFunctionTitle: 'Funciones del cargo',
       experiences: [
         {
           id: 1,
           title: 'Developer',
           project: 'BanConexión',
-          technologiesTitle: 'Technologies',
+          description: 'Esta es una descripcion',
+          jobFunctions: [],
           technologies: [
             {
               id: 1,

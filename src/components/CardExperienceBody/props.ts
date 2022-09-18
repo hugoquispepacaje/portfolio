@@ -1,6 +1,10 @@
 import { ExperienceItem } from '../../models/data';
 
-interface CardExperienceBodyProps extends ExperienceItem {}
+interface CardExperienceBodyProps extends ExperienceItem {
+  labelShowMore: string;
+  technologiesTitle: string;
+  onClickShowMore: () => void;
+}
 
 const defaultCardExperienceBodyProps:CardExperienceBodyProps = {
   id: 0,
@@ -20,6 +24,8 @@ const defaultCardExperienceBodyProps:CardExperienceBodyProps = {
     logoSrc: '',
     logoAlt: '',
   },
+  labelShowMore: 'Show More',
+  onClickShowMore: () => null,
 };
 
 export default CardExperienceBodyProps;

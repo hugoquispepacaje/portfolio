@@ -1,3 +1,4 @@
+import Button from '../Button';
 import Logo from '../Logo';
 import TitleText from '../TitleText';
 import CardExperienceBodyProps, { defaultCardExperienceBodyProps } from './props';
@@ -22,6 +23,8 @@ const CardExperienceBody = (props: CardExperienceBodyProps) => {
     client,
     employerTitle,
     employer,
+    labelShowMore,
+    onClickShowMore,
   } = props;
 
   const renderTechnologies = technologies.map((tech) => (
@@ -54,6 +57,7 @@ const CardExperienceBody = (props: CardExperienceBodyProps) => {
           />
         </div>
       </div>
+      <Button label={labelShowMore} onPress={onClickShowMore} />
     </div>
   );
 };

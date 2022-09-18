@@ -29,12 +29,13 @@ interface ExperienceItem {
   id: number;
   title: string;
   project: string;
-  technologiesTitle: string;
   technologies: Logo[];
   clientTitle: string;
   client: Logo;
   employerTitle: string;
   employer: Logo;
+  description?: string;
+  jobFunctions?: string[];
 }
 
 interface Data {
@@ -45,6 +46,8 @@ interface Data {
   contact: ContactItem[];
   experienceTitle: string;
   experiences: ExperienceItem[];
+  technologiesTitle: string;
+  jobFunctionTitle: string;
 }
 
 interface LanguageData {
