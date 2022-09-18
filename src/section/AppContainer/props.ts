@@ -17,6 +17,7 @@ const defaultAppData = {
   experienceTitle: '',
   experiences: [],
   technologiesTitle: '',
+  jobFunctionTitle: '',
 };
 
 export default AppContainerProps;

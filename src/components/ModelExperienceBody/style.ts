@@ -19,6 +19,7 @@ const jobFunctionContainerStyle = `
 const jobFunctionStyle = `
   list-disc
   mb-2
+  leading-normal
 `;
 
 export {

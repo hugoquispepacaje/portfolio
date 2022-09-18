@@ -50,10 +50,16 @@ const spanCancelStyle = `
   duration-500
 `;
 
+const getIconStyle = (iconClass:string, hasSpace:boolean) => `
+  ${iconClass}
+  ${hasSpace && 'mr-1'}
+`;
+
 export {
   buttonStyle,
   buttonHamburgerStyle,
   spanHamburgerStyle,
   buttonCancelStyle,
   spanCancelStyle,
+  getIconStyle,
 };

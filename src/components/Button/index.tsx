@@ -5,6 +5,7 @@ import {
   spanHamburgerStyle,
   buttonCancelStyle,
   spanCancelStyle,
+  getIconStyle,
 } from './style';
 
 const Button = (props:ButtonProps) => {
@@ -13,6 +14,7 @@ const Button = (props:ButtonProps) => {
     hamburguer,
     label,
     onPress,
+    icon,
   } = { ...defaultButtonProps, ...props };
   if (cancel) {
     return (
@@ -33,8 +35,13 @@ const Button = (props:ButtonProps) => {
     );
   }
 
+  const renderIcon = () => (
+    icon ? <i className={getIconStyle(icon, label !== '')} /> : null
+  );
+
   return (
     <button type="button" className={buttonStyle} onClick={onPress}>
+      {renderIcon()}
       {label}
     </button>
   );

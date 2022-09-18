@@ -3,10 +3,12 @@ import LanguageContext from '../../context/Language/LanguageContext';
 import languageData from '../../data/data';
 import { Data } from '../../models/data';
 import { defaultAppData } from './props';
+import useWindowSize from '../../hooks/useWindowSize';
 
 const useAppContainer = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
   const [data, setData] = useState<Data>(defaultAppData);
+  const { width } = useWindowSize();
 
   const openSidebar = () => {
     setIsSidebarActive(true);
@@ -29,6 +31,7 @@ const useAppContainer = () => {
     data,
     openSidebar,
     closeSidebar,
+    widthScreen: width,
   };
 };
 

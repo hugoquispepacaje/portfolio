@@ -13,6 +13,8 @@ const Modal = (props:ModalProps) => {
       setTimeout(() => {
         setIsVisibleAnimation(true);
       }, 50);
+    } else {
+      setIsVisibleAnimation(false);
     }
   }, [visible]);
   return (

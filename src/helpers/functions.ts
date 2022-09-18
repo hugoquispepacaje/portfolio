@@ -15,6 +15,17 @@ const needShowMore = (cantItems:number) => {
   }
 };
 
-const other = () => null;
+const getNumItemsForCarrusel = (widthScreen:number) => {
+  switch (true) {
+    case widthScreen < screenBreak.sm:
+      return 1;
+    case widthScreen < screenBreak.lg:
+      return 2;
+    case widthScreen >= screenBreak.lg:
+      return 3;
+    default:
+      return 1;
+  }
+};
 
-export { needShowMore, other };
+export { needShowMore, getNumItemsForCarrusel };
