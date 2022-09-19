@@ -12,6 +12,7 @@ import useAppContainer from './useAppContainer';
 const Banner = lazy(() => import('../Banner'));
 const Experience = lazy(() => import('../Experience'));
 const Education = lazy(() => import('../Education'));
+const AboutMe = lazy(() => import('../AboutMe'));
 
 const AppContainer = () => {
   const {
@@ -44,6 +45,15 @@ const AppContainer = () => {
           educationTitle={data.educationTitle}
           educations={data.educations}
           widthScreen={widthScreen || screenBreak.sm}
+        />
+      </Suspense>
+      <Suspense fallback={<SpinnerContainer />}>
+        <AboutMe
+          id="edu"
+          aboutMeTitle={data.aboutMeTitle}
+          description={data.aboutMe.description}
+          imageUrl={data.aboutMe.imageUrl}
+          imageAlt={data.aboutMe.imageAlt}
         />
       </Suspense>
       <Footer leftSide={data.footer.leftSide} rightSide={data.footer.rightSide} />

@@ -24,6 +24,12 @@ const defaultAppData = {
     leftSide: '',
     rightSide: '',
   },
+  aboutMeTitle: '',
+  aboutMe: {
+    description: '',
+    imageUrl: '',
+    imageAlt: '',
+  },
 };
 
 export default AppContainerProps;

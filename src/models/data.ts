@@ -46,6 +46,12 @@ interface EducationItem {
   imageAlt: string;
 }
 
+interface AboutMe {
+  description: string;
+  imageUrl: string;
+  imageAlt: string;
+}
+
 interface Footer {
   leftSide: string;
   rightSide: string;
@@ -63,6 +69,8 @@ interface Data {
   jobFunctionTitle: string;
   educationTitle: string;
   educations: EducationItem[];
+  aboutMeTitle: string;
+  aboutMe: AboutMe;
   footer: Footer;
 }
 

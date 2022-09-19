@@ -99,6 +99,13 @@ const languageData:LanguageData[] = [
       ],
       educationTitle: 'Educacion',
       educations: [],
+      aboutMeTitle: 'Sobre Mi',
+      aboutMe: {
+        description: `Me encanta viajar, mi deporte favorito es la Natación, mi comida favorita es el Tallarín Saltado y mi animal favorito es la tortuga marina.
+        En mis tiempos libres me gusta salir a trotar y consumir la droga del League of Leguends hablando con mis amigos por Discord.`,
+        imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
+        imageAlt: 'Mis Gatos',
+      },
       footer: {
         leftSide: 'Portafolio Hugo Quispe',
         rightSide: '2022 - Proyecto Personal',
@@ -408,6 +415,13 @@ const languageData:LanguageData[] = [
           imageAlt: 'UDEM Logo',
         },
       ],
+      aboutMeTitle: 'Sobre Mi',
+      aboutMe: {
+        description: `Me encanta viajar, mi deporte favorito es la Natación, mi comida favorita es el Tallarín Saltado y mi animal favorito es la tortuga marina.
+        En mis tiempos libres me gusta salir a trotar y consumir la droga del League of Leguends hablando con mis amigos por Discord.`,
+        imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
+        imageAlt: 'Mis Gatos',
+      },
       footer: {
         leftSide: 'Portfolio Hugo Quispe',
         rightSide: '2022 - Personal Project',
@@ -512,6 +526,13 @@ const languageData:LanguageData[] = [
       ],
       educationTitle: 'Educacion',
       educations: [],
+      aboutMeTitle: 'Sobre Mi',
+      aboutMe: {
+        description: `Me encanta viajar, mi deporte favorito es la Natación, mi comida favorita es el Tallarín Saltado y mi animal favorito es la tortuga marina.
+        En mis tiempos libres me gusta salir a trotar y consumir la droga del League of Leguends hablando con mis amigos por Discord.`,
+        imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
+        imageAlt: 'Mis Gatos',
+      },
       footer: {
         leftSide: 'Portefeuille Hugo Quispe',
         rightSide: '2022 - Projet personnel',
