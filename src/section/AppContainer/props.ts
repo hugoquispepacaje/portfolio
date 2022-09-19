@@ -20,15 +20,17 @@ const defaultAppData = {
   jobFunctionTitle: '',
   educationTitle: '',
   educations: [],
-  footer: {
-    leftSide: '',
-    rightSide: '',
-  },
   aboutMeTitle: '',
   aboutMe: {
     description: '',
     imageUrl: '',
     imageAlt: '',
+  },
+  contactTitle: '',
+  contactSubtitle: '',
+  footer: {
+    leftSide: '',
+    rightSide: '',
   },
 };
 

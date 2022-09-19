@@ -106,6 +106,8 @@ const languageData:LanguageData[] = [
         imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
         imageAlt: 'Mis Gatos',
       },
+      contactTitle: '¿Te gustaría trabajar conmigo?',
+      contactSubtitle: '¡Contactame!',
       footer: {
         leftSide: 'Portafolio Hugo Quispe',
         rightSide: '2022 - Proyecto Personal',
@@ -422,6 +424,8 @@ const languageData:LanguageData[] = [
         imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
         imageAlt: 'Mis Gatos',
       },
+      contactTitle: 'Would you like to work with me?',
+      contactSubtitle: 'Contact me!',
       footer: {
         leftSide: 'Portfolio Hugo Quispe',
         rightSide: '2022 - Personal Project',
@@ -533,6 +537,8 @@ const languageData:LanguageData[] = [
         imageUrl: 'https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2022/01/25/como-saber-si-un-gato-siames-es-original-focus-min0.14-0.21-640-384.jpg',
         imageAlt: 'Mis Gatos',
       },
+      contactTitle: 'Aimeriez-vous travailler avec moi?',
+      contactSubtitle: 'Contactez moi!',
       footer: {
         leftSide: 'Portefeuille Hugo Quispe',
         rightSide: '2022 - Projet personnel',

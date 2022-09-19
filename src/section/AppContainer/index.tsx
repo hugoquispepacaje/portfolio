@@ -13,6 +13,7 @@ const Banner = lazy(() => import('../Banner'));
 const Experience = lazy(() => import('../Experience'));
 const Education = lazy(() => import('../Education'));
 const AboutMe = lazy(() => import('../AboutMe'));
+const Contact = lazy(() => import('../Contact'));
 
 const AppContainer = () => {
   const {
@@ -30,7 +31,7 @@ const AppContainer = () => {
       </Suspense>
       <Suspense fallback={<SpinnerContainer />}>
         <Experience
-          id="exp"
+          id="experience"
           experienceTitle={data.experienceTitle}
           experiences={data.experiences}
           labelShowMore={data.labelShowMore}
@@ -41,7 +42,7 @@ const AppContainer = () => {
       </Suspense>
       <Suspense fallback={<SpinnerContainer />}>
         <Education
-          id="edu"
+          id="education"
           educationTitle={data.educationTitle}
           educations={data.educations}
           widthScreen={widthScreen || screenBreak.sm}
@@ -49,11 +50,19 @@ const AppContainer = () => {
       </Suspense>
       <Suspense fallback={<SpinnerContainer />}>
         <AboutMe
-          id="edu"
+          id="about-me"
           aboutMeTitle={data.aboutMeTitle}
           description={data.aboutMe.description}
           imageUrl={data.aboutMe.imageUrl}
           imageAlt={data.aboutMe.imageAlt}
+        />
+      </Suspense>
+      <Suspense fallback={<SpinnerContainer />}>
+        <Contact
+          id="about-me"
+          contactTitle={data.contactTitle}
+          contactSubtitle={data.contactSubtitle}
+          contactItems={data.contact}
         />
       </Suspense>
       <Footer leftSide={data.footer.leftSide} rightSide={data.footer.rightSide} />

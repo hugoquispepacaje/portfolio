@@ -1,4 +1,4 @@
-import FooterProps from './props';
+import FooterProps, { defaultFooterProps } from './props';
 import footerStyle from './style';
 
 const Footer = (props:FooterProps) => {
@@ -10,5 +10,7 @@ const Footer = (props:FooterProps) => {
     </footer>
   );
 };
+
+Footer.defaultProps = defaultFooterProps;
 
 export default Footer;

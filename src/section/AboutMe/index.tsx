@@ -1,5 +1,5 @@
 import SectionCointainer from '../../components/SectionCointainer';
-import AboutMeProps from './props';
+import AboutMeProps, { defaultAboutMeProps } from './props';
 import { aboutMeConteinterStyle, descriptionStyle, imageStyle } from './style';
 
 const AboutMe = (props:AboutMeProps) => {
@@ -22,5 +22,7 @@ const AboutMe = (props:AboutMeProps) => {
     </SectionCointainer>
   );
 };
+
+AboutMe.defaultProps = defaultAboutMeProps;
 
 export default AboutMe;

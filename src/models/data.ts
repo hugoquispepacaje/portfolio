@@ -71,6 +71,8 @@ interface Data {
   educations: EducationItem[];
   aboutMeTitle: string;
   aboutMe: AboutMe;
+  contactTitle: string;
+  contactSubtitle: string;
   footer: Footer;
 }
 
