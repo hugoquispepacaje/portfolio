@@ -18,6 +18,12 @@ const defaultAppData = {
   experiences: [],
   technologiesTitle: '',
   jobFunctionTitle: '',
+  educationTitle: '',
+  educations: [],
+  footer: {
+    leftSide: '',
+    rightSide: '',
+  },
 };
 
 export default AppContainerProps;

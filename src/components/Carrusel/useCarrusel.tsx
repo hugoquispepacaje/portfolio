@@ -14,7 +14,7 @@ const useCarrusel = (itemsContent: JSX.Element[], numItems:number) => {
       setItems(itemsContent.slice(0, numItems));
       setLastPosition(numItems);
     }
-  }, [numItems]);
+  }, [numItems, itemsContent]);
 
   const onClickLeftButton = () => {
     if (itemsContent.length <= numItems) return;

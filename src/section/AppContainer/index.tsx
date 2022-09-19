@@ -1,9 +1,9 @@
 import { Suspense, lazy } from 'react';
-import Carrusel from '../../components/Carrusel';
 import Dock from '../../components/Dock';
 import Modal from '../../components/Modal/Modal';
 import Sidebar from '../../components/Sidebar';
 import { screenBreak } from '../../helpers/constants';
+import Footer from '../Footer';
 import Hearder from '../Header';
 import SpinnerContainer from '../SpinnerContainer';
 import AppContainerStyle from './style';
@@ -11,14 +11,8 @@ import useAppContainer from './useAppContainer';
 
 const Banner = lazy(() => import('../Banner'));
 const Experience = lazy(() => import('../Experience'));
+const Education = lazy(() => import('../Education'));
 
-const items = [
-  (<p key={1}>1</p>),
-  (<p key={2}>2</p>),
-  (<p key={3}>3</p>),
-  (<p key={4}>4</p>),
-  (<p key={5}>5</p>),
-];
 const AppContainer = () => {
   const {
     isSidebarActive,
@@ -44,7 +38,15 @@ const AppContainer = () => {
           jobFunctionTitle={data.jobFunctionTitle}
         />
       </Suspense>
-      <Carrusel widthScreen={widthScreen || screenBreak.sm} itemsContent={items} />
+      <Suspense fallback={<SpinnerContainer />}>
+        <Education
+          id="edu"
+          educationTitle={data.educationTitle}
+          educations={data.educations}
+          widthScreen={widthScreen || screenBreak.sm}
+        />
+      </Suspense>
+      <Footer leftSide={data.footer.leftSide} rightSide={data.footer.rightSide} />
       <Sidebar menuItems={data.menu} visible={isSidebarActive} onHide={closeSidebar} />
       <Dock items={data.contact} className="hidden md:flex" />
       <Modal labelShowLess={data.labelShowLess} />

@@ -28,6 +28,9 @@ const getMenuContainerStyle = (isVisible:boolean) => `
   ${isVisible ? 'translate-x-0' : 'translate-x-full'}
   transition-all
   duration-500
+  border-blue-ncs-opacity-30
+  border-l
+  border-solid
 `;
 
 const topMenuStyle = `

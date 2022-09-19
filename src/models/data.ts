@@ -38,6 +38,19 @@ interface ExperienceItem {
   jobFunctions?: string[];
 }
 
+interface EducationItem {
+  id: number;
+  university: string;
+  description: string;
+  imageSrc: string;
+  imageAlt: string;
+}
+
+interface Footer {
+  leftSide: string;
+  rightSide: string;
+}
+
 interface Data {
   labelShowMore: string;
   labelShowLess: string;
@@ -48,6 +61,9 @@ interface Data {
   experiences: ExperienceItem[];
   technologiesTitle: string;
   jobFunctionTitle: string;
+  educationTitle: string;
+  educations: EducationItem[];
+  footer: Footer;
 }
 
 interface LanguageData {
@@ -62,6 +78,8 @@ export {
   type ContactItem,
   type Logo,
   type ExperienceItem,
+  type EducationItem,
+  type Footer,
 };
 
 export default LanguageData;

@@ -97,6 +97,12 @@ const languageData:LanguageData[] = [
           },
         },
       ],
+      educationTitle: 'Educacion',
+      educations: [],
+      footer: {
+        leftSide: 'Portafolio Hugo Quispe',
+        rightSide: '2022 - Proyecto Personal',
+      },
     },
   },
   {
@@ -364,6 +370,48 @@ const languageData:LanguageData[] = [
           },
         },
       ],
+      educationTitle: 'Educacion',
+      educations: [
+        {
+          id: 1,
+          university: 'Universidad de Tarapacá',
+          description: 'Ing. Civil en Computación e Informática',
+          imageSrc: 'https://hugoquispe.cl/assets/img/uta-logo.png',
+          imageAlt: 'Uta Logo',
+        },
+        {
+          id: 2,
+          university: 'UNdeC',
+          description: 'Estudiante Intercambio 2017',
+          imageSrc: 'https://hugoquispe.cl/assets/img/undec-logo.png',
+          imageAlt: 'UNdeC Logo',
+        },
+        {
+          id: 3,
+          university: 'UPDS',
+          description: 'Estudiante Intercambio 2018',
+          imageSrc: 'https://hugoquispe.cl/assets/img/upds-logo.png',
+          imageAlt: 'UPDS Logo',
+        },
+        {
+          id: 4,
+          university: 'Universidad de Buenos Aires',
+          description: 'ECI 2019',
+          imageSrc: 'https://hugoquispe.cl/assets/img/uba-logo.png',
+          imageAlt: 'UBA Logo',
+        },
+        {
+          id: 5,
+          university: 'Universidad de Medellín',
+          description: 'Estudiante Intercambio 2020',
+          imageSrc: 'https://hugoquispe.cl/assets/img/udem-logo.png',
+          imageAlt: 'UDEM Logo',
+        },
+      ],
+      footer: {
+        leftSide: 'Portfolio Hugo Quispe',
+        rightSide: '2022 - Personal Project',
+      },
     },
   },
   {
@@ -462,6 +510,12 @@ const languageData:LanguageData[] = [
           },
         },
       ],
+      educationTitle: 'Educacion',
+      educations: [],
+      footer: {
+        leftSide: 'Portefeuille Hugo Quispe',
+        rightSide: '2022 - Projet personnel',
+      },
     },
   },
 ];
