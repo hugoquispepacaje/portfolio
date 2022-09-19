@@ -20,6 +20,10 @@ const defaultAppData = {
   jobFunctionTitle: '',
   educationTitle: '',
   educations: [],
+  certificationTitle: '',
+  certifications: [],
+  technologyTitle: '',
+  technologies: [],
   aboutMeTitle: '',
   aboutMe: {
     description: '',

@@ -7,7 +7,7 @@ import {
   jobFunctionTitleStyle,
 } from './style';
 
-const ModelExperienceBody = (props:ModalExperienceBodyProps) => {
+const ModalExperienceBody = (props:ModalExperienceBodyProps) => {
   const {
     description,
     jobFunctionTitle,
@@ -36,5 +36,5 @@ const ModelExperienceBody = (props:ModalExperienceBodyProps) => {
   );
 };
 
-ModelExperienceBody.defaultProps = defaultModalExperienceBodyProps;
-export default ModelExperienceBody;
+ModalExperienceBody.defaultProps = defaultModalExperienceBodyProps;
+export default ModalExperienceBody;

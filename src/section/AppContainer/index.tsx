@@ -12,6 +12,8 @@ import useAppContainer from './useAppContainer';
 const Banner = lazy(() => import('../Banner'));
 const Experience = lazy(() => import('../Experience'));
 const Education = lazy(() => import('../Education'));
+const Technology = lazy(() => import('../Technology'));
+const Certification = lazy(() => import('../Certification'));
 const AboutMe = lazy(() => import('../AboutMe'));
 const Contact = lazy(() => import('../Contact'));
 
@@ -45,6 +47,22 @@ const AppContainer = () => {
           id="education"
           educationTitle={data.educationTitle}
           educations={data.educations}
+          widthScreen={widthScreen || screenBreak.sm}
+        />
+      </Suspense>
+      <Suspense fallback={<SpinnerContainer />}>
+        <Technology
+          id="technology"
+          technologyTitle={data.technologyTitle}
+          technologies={data.technologies}
+          widthScreen={widthScreen || screenBreak.sm}
+        />
+      </Suspense>
+      <Suspense fallback={<SpinnerContainer />}>
+        <Certification
+          id="certification"
+          certificationTitle={data.certificationTitle}
+          certifications={data.certifications}
           widthScreen={widthScreen || screenBreak.sm}
         />
       </Suspense>

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import Card from '../../components/Card';
 import CardExperienceBody from '../../components/CardExperienceBody';
-import ModelExperienceBody from '../../components/ModelExperienceBody';
+import ModalExperienceBody from '../../components/ModalExperienceBody';
 import SectionCointainer from '../../components/SectionCointainer';
 import ModalContext from '../../context/Modal/ModalContext';
 import { needShowMore } from '../../helpers/functions';
@@ -21,7 +21,7 @@ const Experience = (props:ExperienceProps) => {
   } = props;
   const { openModal } = useContext(ModalContext);
   const renderContent = (experience:ExperienceItem) => (
-    <ModelExperienceBody
+    <ModalExperienceBody
       jobFunctionTitle={jobFunctionTitle}
       jobFunctions={experience.jobFunctions}
       description={experience.description}

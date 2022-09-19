@@ -46,6 +46,13 @@ interface EducationItem {
   imageAlt: string;
 }
 
+interface ModalSimpleItem {
+  id: number;
+  title: string;
+  imageSrc: string;
+  imageAlt: string;
+}
+
 interface AboutMe {
   description: string;
   imageUrl: string;
@@ -69,6 +76,10 @@ interface Data {
   jobFunctionTitle: string;
   educationTitle: string;
   educations: EducationItem[];
+  certificationTitle: string;
+  certifications: ModalSimpleItem[];
+  technologyTitle: string;
+  technologies: ModalSimpleItem[];
   aboutMeTitle: string;
   aboutMe: AboutMe;
   contactTitle: string;
@@ -90,6 +101,7 @@ export {
   type ExperienceItem,
   type EducationItem,
   type Footer,
+  type ModalSimpleItem,
 };
 
 export default LanguageData;
