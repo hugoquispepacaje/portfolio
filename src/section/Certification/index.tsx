@@ -16,8 +16,7 @@ const Certification = (props:CertificationProps) => {
       <CarruselSimpleBody
         key={certification.id}
         title={certification.title}
-        imageSrc={certification.imageSrc}
-        imageAlt={certification.imageAlt}
+        logo={certification.logo}
       />
     ),
   );

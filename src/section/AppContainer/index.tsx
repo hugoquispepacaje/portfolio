@@ -11,6 +11,7 @@ import useAppContainer from './useAppContainer';
 
 const Banner = lazy(() => import('../Banner'));
 const Experience = lazy(() => import('../Experience'));
+const Project = lazy(() => import('../Project'));
 const Education = lazy(() => import('../Education'));
 const Technology = lazy(() => import('../Technology'));
 const Certification = lazy(() => import('../Certification'));
@@ -38,8 +39,19 @@ const AppContainer = () => {
           experiences={data.experiences}
           labelShowMore={data.labelShowMore}
           labelShowLess={data.labelShowLess}
-          technologiesTitle={data.technologiesTitle}
-          jobFunctionTitle={data.jobFunctionTitle}
+          technologyLabel={data.technologyLabel}
+          jobFunctionLabel={data.jobFunctionLabel}
+        />
+      </Suspense>
+      <Suspense fallback={<SpinnerContainer />}>
+        <Project
+          id="project"
+          technologyLabel={data.technologyLabel}
+          repositoryLabel={data.repositoryLabel}
+          projectTitle={data.projectTitle}
+          projects={data.projects}
+          labelShowMore={data.labelShowMore}
+          widthScreen={widthScreen || screenBreak.sm}
         />
       </Suspense>
       <Suspense fallback={<SpinnerContainer />}>

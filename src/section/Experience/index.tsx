@@ -16,13 +16,13 @@ const Experience = (props:ExperienceProps) => {
     experiences,
     labelShowMore,
     labelShowLess,
-    technologiesTitle,
-    jobFunctionTitle,
+    technologyLabel,
+    jobFunctionLabel,
   } = props;
   const { openModal } = useContext(ModalContext);
   const renderContent = (experience:ExperienceItem) => (
     <ModalExperienceBody
-      jobFunctionTitle={jobFunctionTitle}
+      jobFunctionLabel={jobFunctionLabel}
       jobFunctions={experience.jobFunctions}
       description={experience.description}
       project={experience.project}
@@ -34,7 +34,7 @@ const Experience = (props:ExperienceProps) => {
         id={experience.id}
         title={experience.title}
         project={experience.project}
-        technologiesTitle={technologiesTitle}
+        technologyLabel={technologyLabel}
         technologies={experience.technologies}
         clientTitle={experience.clientTitle}
         client={experience.client}

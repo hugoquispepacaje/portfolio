@@ -1,7 +1,8 @@
+import { Logo } from '../../models/data';
+
 interface CarruselSimpleBodyProps {
   title: string;
-  imageSrc: string;
-  imageAlt: string;
+  logo: Logo;
 }
 
 export default CarruselSimpleBodyProps;

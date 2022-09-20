@@ -1,19 +1,21 @@
+import Button from '../Button';
 import Logo from '../Logo';
 import CarruselEducationBodyProps from './props';
-import { carruselEducationBodyContainerStyle, imageStyle, universityStyle } from './style';
+import { carruselEducationBodyContainerStyle, imageStyle, titleProjectStyle } from './style';
 
 const CarruselEducationBody = (props:CarruselEducationBodyProps) => {
   const {
-    university,
-    description,
+    titleProject,
     logo,
+    labelShowMore,
+    onClickShowMore,
   } = props;
 
   return (
     <div className={carruselEducationBodyContainerStyle}>
       <Logo sizeStyle={imageStyle} logoSrc={logo.logoSrc} logoAlt={logo.logoAlt} />
-      <p className={universityStyle}>{university}</p>
-      <p>{description}</p>
+      <p className={titleProjectStyle}>{titleProject}</p>
+      <Button label={labelShowMore} onPress={onClickShowMore} />
     </div>
   );
 };

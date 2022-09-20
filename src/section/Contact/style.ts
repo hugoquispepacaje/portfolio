@@ -22,7 +22,7 @@ const getIconStyle = (iconClass: string) => `
   cursor-pointer
   hover:scale-125
   transition-all
-  duration-600
+  duration-200
 `;
 
 const contactItemsContainerStyle = `

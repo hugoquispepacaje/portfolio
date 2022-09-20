@@ -1,8 +1,9 @@
+import { Logo } from '../../models/data';
+
 interface CarruselEducationBodyProps {
   university: string;
   description: string;
-  imageSrc: string;
-  imageAlt: string;
+  logo: Logo;
 }
 
 export default CarruselEducationBodyProps;

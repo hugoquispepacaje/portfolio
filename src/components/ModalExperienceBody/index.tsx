@@ -10,7 +10,7 @@ import {
 const ModalExperienceBody = (props:ModalExperienceBodyProps) => {
   const {
     description,
-    jobFunctionTitle,
+    jobFunctionLabel,
     jobFunctions,
     project,
   } = props;
@@ -24,7 +24,7 @@ const ModalExperienceBody = (props:ModalExperienceBodyProps) => {
       { jobFunctions.length > 0
         ? (
           <>
-            <p className={jobFunctionTitleStyle}>{`${jobFunctionTitle}:`}</p>
+            <p className={jobFunctionTitleStyle}>{`${jobFunctionLabel}:`}</p>
             <div className={jobFunctionContainerStyle}>
               <ul>
                 {renderJobFunctions}

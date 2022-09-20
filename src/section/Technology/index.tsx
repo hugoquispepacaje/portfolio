@@ -16,8 +16,7 @@ const Techonology = (props:TechnologyProps) => {
       <CarruselSimpleBody
         key={technology.id}
         title={technology.title}
-        imageSrc={technology.imageSrc}
-        imageAlt={technology.imageAlt}
+        logo={technology.logo}
       />
     ),
   );

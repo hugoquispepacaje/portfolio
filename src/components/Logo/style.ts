@@ -1,10 +1,13 @@
 const logoStyle = `
-  w-14
-  h-14
   hover:scale-110
   transition-transform
   duration-500
   m-auto
+`;
+
+const logoSizeDefaultStyle = `
+  w-14
+  h-14
 `;
 
 const titleStyle = `
@@ -19,4 +22,9 @@ const logoWithTitleContainerStyle = `
   gap-3
 `;
 
-export { logoStyle, titleStyle, logoWithTitleContainerStyle };
+export {
+  logoStyle,
+  titleStyle,
+  logoWithTitleContainerStyle,
+  logoSizeDefaultStyle,
+};

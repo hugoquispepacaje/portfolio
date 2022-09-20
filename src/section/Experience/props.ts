@@ -3,8 +3,8 @@ import { ExperienceItem } from '../../models/data';
 interface ExperienceProps {
   id: string;
   experienceTitle: string;
-  technologiesTitle: string;
-  jobFunctionTitle: string;
+  technologyLabel: string;
+  jobFunctionLabel: string;
   experiences: ExperienceItem[];
   labelShowMore: string;
   labelShowLess: string;
@@ -13,8 +13,8 @@ interface ExperienceProps {
 const defaultExperienceProps:ExperienceProps = {
   id: '',
   experienceTitle: '',
-  technologiesTitle: '',
-  jobFunctionTitle: '',
+  technologyLabel: '',
+  jobFunctionLabel: '',
   experiences: [],
   labelShowMore: '',
   labelShowLess: '',

@@ -20,7 +20,7 @@ const dockStyle = `
   border-solid
   hover:scale-110
   transition-all
-  duration-600
+  duration-200
 `;
 
 const getIconStyle = (iconClass: string) => `
@@ -30,7 +30,7 @@ const getIconStyle = (iconClass: string) => `
   cursor-pointer
   hover:scale-125
   transition-all
-  duration-600
+  duration-200
 `;
 
 export { dockStyle, getIconStyle };

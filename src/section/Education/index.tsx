@@ -17,8 +17,7 @@ const Experience = (props:EducationProps) => {
         key={education.id}
         university={education.university}
         description={education.description}
-        imageSrc={education.imageSrc}
-        imageAlt={education.imageAlt}
+        logo={education.logo}
       />
     ),
   );

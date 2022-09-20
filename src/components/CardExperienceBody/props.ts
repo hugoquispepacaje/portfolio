@@ -2,7 +2,7 @@ import { ExperienceItem } from '../../models/data';
 
 interface CardExperienceBodyProps extends ExperienceItem {
   labelShowMore: string;
-  technologiesTitle: string;
+  technologyLabel: string;
   onClickShowMore: () => void;
 }
 
@@ -10,7 +10,7 @@ const defaultCardExperienceBodyProps:CardExperienceBodyProps = {
   id: 0,
   title: '',
   project: '',
-  technologiesTitle: '',
+  technologyLabel: '',
   technologies: [],
   clientTitle: '',
   client: {

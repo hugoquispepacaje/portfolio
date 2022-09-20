@@ -1,9 +1,9 @@
-import { ModalSimpleItem } from '../../models/data';
+import { CarruselSimpleItem } from '../../models/data';
 
 interface TechnologyProps {
   id: string;
   technologyTitle: string;
-  technologies: ModalSimpleItem[];
+  technologies: CarruselSimpleItem[];
   widthScreen: number;
 }
 

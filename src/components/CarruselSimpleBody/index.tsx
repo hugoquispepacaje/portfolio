@@ -1,16 +1,16 @@
+import Logo from '../Logo';
 import CarruselSimpleBodyProps from './props';
 import { carruselSimpleBodyContainerStyle, imageStyle, titleStyle } from './style';
 
 const CarruselSimpleBody = (props:CarruselSimpleBodyProps) => {
   const {
     title,
-    imageSrc,
-    imageAlt,
+    logo,
   } = props;
 
   return (
     <div className={carruselSimpleBodyContainerStyle}>
-      <img className={imageStyle} src={imageSrc} alt={imageAlt} />
+      <Logo sizeStyle={imageStyle} logoSrc={logo.logoSrc} logoAlt={logo.logoAlt} />
       <p className={titleStyle}>{title}</p>
     </div>
   );

@@ -38,19 +38,26 @@ interface ExperienceItem {
   jobFunctions?: string[];
 }
 
+interface ProjectItem {
+  id: number;
+  title: string;
+  logo: Logo;
+  description: string;
+  technologies: string[];
+  urlGithub: string;
+}
+
 interface EducationItem {
   id: number;
   university: string;
   description: string;
-  imageSrc: string;
-  imageAlt: string;
+  logo: Logo;
 }
 
-interface ModalSimpleItem {
+interface CarruselSimpleItem {
   id: number;
   title: string;
-  imageSrc: string;
-  imageAlt: string;
+  logo: Logo;
 }
 
 interface AboutMe {
@@ -72,14 +79,17 @@ interface Data {
   contact: ContactItem[];
   experienceTitle: string;
   experiences: ExperienceItem[];
-  technologiesTitle: string;
-  jobFunctionTitle: string;
+  technologyLabel: string;
+  jobFunctionLabel: string;
+  repositoryLabel: string;
+  projectTitle: string;
+  projects: ProjectItem[];
   educationTitle: string;
   educations: EducationItem[];
   certificationTitle: string;
-  certifications: ModalSimpleItem[];
+  certifications: CarruselSimpleItem[];
   technologyTitle: string;
-  technologies: ModalSimpleItem[];
+  technologies: CarruselSimpleItem[];
   aboutMeTitle: string;
   aboutMe: AboutMe;
   contactTitle: string;
@@ -101,7 +111,8 @@ export {
   type ExperienceItem,
   type EducationItem,
   type Footer,
-  type ModalSimpleItem,
+  type CarruselSimpleItem,
+  type ProjectItem,
 };
 
 export default LanguageData;

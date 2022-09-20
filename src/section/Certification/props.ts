@@ -1,9 +1,9 @@
-import { ModalSimpleItem } from '../../models/data';
+import { CarruselSimpleItem } from '../../models/data';
 
 interface CertificationProps {
   id: string;
   certificationTitle: string;
-  certifications: ModalSimpleItem[];
+  certifications: CarruselSimpleItem[];
   widthScreen: number;
 }
 

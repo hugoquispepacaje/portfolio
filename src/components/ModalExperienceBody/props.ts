@@ -1,13 +1,13 @@
 interface ModalExperienceBodyProps {
   description: string;
-  jobFunctionTitle: string;
+  jobFunctionLabel: string;
   jobFunctions: string[];
   project: string,
 }
 
 const defaultModalExperienceBodyProps:ModalExperienceBodyProps = {
   description: '',
-  jobFunctionTitle: '',
+  jobFunctionLabel: '',
   jobFunctions: [],
   project: '',
 };

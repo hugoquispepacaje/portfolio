@@ -17,7 +17,7 @@ const CardExperienceBody = (props: CardExperienceBodyProps) => {
     id,
     title,
     project,
-    technologiesTitle,
+    technologyLabel,
     technologies,
     clientTitle,
     client,
@@ -39,7 +39,7 @@ const CardExperienceBody = (props: CardExperienceBodyProps) => {
     <div className={cardExperienceBodyStyle} id={`experience_${id.toString()}`}>
       <TitleText title={title} />
       <p className={projectStyle}>{project}</p>
-      <p className={technologiesTitleStyle}>{technologiesTitle}</p>
+      <p className={technologiesTitleStyle}>{technologyLabel}</p>
       <div className={technologieContainerStyle}>{ renderTechnologies }</div>
       <div className={experienceContainerStyle}>
         <div className={employerContainer}>
