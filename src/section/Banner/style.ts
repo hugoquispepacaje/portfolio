@@ -5,7 +5,7 @@ const bannerStyle = `
   min-h-[30rem]
   xl:min-h-[42rem]
   2xl:min-h-[50rem]
-  bg-[url('https://hugoquispe.cl/assets/banner.1de76c1b.jpg')]
+  bg-[url('https://image.hugoquispe.cl/assets/img/banner.jpg')]
   bg-no-repeat
   bg-center
   bg-fixed

@@ -89,7 +89,7 @@ const AppContainer = () => {
       </Suspense>
       <Suspense fallback={<SpinnerContainer />}>
         <Contact
-          id="about-me"
+          id="contact"
           contactTitle={data.contactTitle}
           contactSubtitle={data.contactSubtitle}
           contactItems={data.contact}

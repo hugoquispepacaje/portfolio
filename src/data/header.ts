@@ -2,7 +2,7 @@ import Header from '../models/header';
 
 const header:Header = {
   href: '#home',
-  logoSrc: 'https://hugoquispe.cl/assets/favicon.cf30a63d.svg',
+  logoSrc: 'https://image.hugoquispe.cl/assets/svg/hugoQuispeLogo.svg',
   logoAlt: 'Hugo\'s logo',
 };
 
