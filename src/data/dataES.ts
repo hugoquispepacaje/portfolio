@@ -136,7 +136,7 @@ const dataES:Data = {
         logoSrc: 'https://image.hugoquispe.cl/assets/img/LogoCGR.png',
         logoAlt: 'CGR Logo',
       },
-      employerTitle: 'Empeador',
+      employerTitle: 'Empleador',
       employer: {
         id: 1,
         logoSrc: 'https://image.hugoquispe.cl/assets/img/valpo-logo.png',
