@@ -451,7 +451,7 @@ const dataEN:Data = {
       description: 'Computer Science Engineering',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/uta-logo.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/uta-logo.png',
         logoAlt: 'Uta Logo',
       },
     },
@@ -461,7 +461,7 @@ const dataEN:Data = {
       description: 'Exchange student',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/undec-logo.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/undec-logo.png',
         logoAlt: 'UNdeC Logo',
       },
     },
@@ -471,7 +471,7 @@ const dataEN:Data = {
       description: 'Exchange student',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/upds-logo.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/upds-logo.png',
         logoAlt: 'UPDS Logo',
       },
     },
@@ -481,7 +481,7 @@ const dataEN:Data = {
       description: 'ECI intensive courses',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/uba-logo.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/uba-logo.png',
         logoAlt: 'UBA Logo',
       },
     },
@@ -503,7 +503,7 @@ const dataEN:Data = {
       title: 'Scrum Foundation',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/SFPC.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/SFPC.png',
         logoAlt: 'Scrum Foundation Logo',
       },
     },
@@ -512,7 +512,7 @@ const dataEN:Data = {
       title: 'Scrum Master Professional',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/img/SMPC.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/img/SMPC.png',
         logoAlt: 'Scrum Master Professional Logo',
       },
     },
@@ -533,7 +533,7 @@ const dataEN:Data = {
       title: 'JavaScript',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/js-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/js-logo.svg',
         logoAlt: 'JavaScript Logo',
       },
     },
@@ -542,7 +542,7 @@ const dataEN:Data = {
       title: 'TypeScript',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/ts-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/ts-logo.svg',
         logoAlt: 'TypeScript Logo',
       },
     },
@@ -551,7 +551,7 @@ const dataEN:Data = {
       title: 'PHP',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/php-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/php-logo.svg',
         logoAlt: 'PHP Logo',
       },
     },
@@ -560,7 +560,7 @@ const dataEN:Data = {
       title: 'Java',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/java-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/java-logo.svg',
         logoAlt: 'Java Logo',
       },
     },
@@ -569,7 +569,7 @@ const dataEN:Data = {
       title: 'Spring',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/spring-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/spring-logo.svg',
         logoAlt: 'Spring Logo',
       },
     },
@@ -578,7 +578,7 @@ const dataEN:Data = {
       title: 'Node-Express',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/nodejs-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/nodejs-logo.svg',
         logoAlt: 'Node-Express Logo',
       },
     },
@@ -587,7 +587,7 @@ const dataEN:Data = {
       title: 'Laravel',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/laravel-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/laravel-logo.svg',
         logoAlt: 'Laravel Logo',
       },
     },
@@ -596,7 +596,7 @@ const dataEN:Data = {
       title: 'Angular',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/angular-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/angular-logo.svg',
         logoAlt: 'Angular Logo',
       },
     },
@@ -605,7 +605,7 @@ const dataEN:Data = {
       title: 'React - React Native',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/react-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/react-logo.svg',
         logoAlt: 'React - React Native Logo',
       },
     },
@@ -614,7 +614,7 @@ const dataEN:Data = {
       title: 'Vue',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/vue-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/vue-logo.svg',
         logoAlt: 'Vue Logo',
       },
     },
@@ -623,7 +623,7 @@ const dataEN:Data = {
       title: 'MySQL',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/mysql-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/mysql-logo.svg',
         logoAlt: 'MySQL Logo',
       },
     },
@@ -632,7 +632,7 @@ const dataEN:Data = {
       title: 'PostgreSQL',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/postgresql-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/postgresql-logo.svg',
         logoAlt: 'PostgreSQL Logo',
       },
     },
@@ -641,7 +641,7 @@ const dataEN:Data = {
       title: 'SQLServer',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/sqlserver-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/sqlserver-logo.svg',
         logoAlt: 'SQLServer Logo',
       },
     },
@@ -650,7 +650,7 @@ const dataEN:Data = {
       title: 'MongoDB',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/mongodb-logo.svg',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/mongodb-logo.svg',
         logoAlt: 'MongoDB Logo',
       },
     },
@@ -659,7 +659,7 @@ const dataEN:Data = {
       title: 'PowerBI',
       logo: {
         id: 1,
-        logoSrc: 'https://hugoquispe.cl/assets/svg/powerbi-logo.png',
+        logoSrc: 'https://image.hugoquispe.cl/assets/svg/powerbi-logo.png',
         logoAlt: 'PowerBI Logo',
       },
     },
